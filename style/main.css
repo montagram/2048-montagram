@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background: url('intro1.png') no-repeat center center fixed;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -20,7 +20,9 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left; 
+  color : white;}
+ 
 
 @-webkit-keyframes move-up {
   0% {
@@ -98,13 +100,15 @@ h1.title {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 1.65; }
+  line-height: 1.65;
+  color : white; }
 
 a {
   color: #776e65;
   font-weight: bold;
   text-decoration: underline;
-  cursor: pointer; }
+  cursor: pointer; 
+  color : white; }
 
 strong.important {
   text-transform: uppercase; }
